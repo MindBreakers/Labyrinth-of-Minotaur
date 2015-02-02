@@ -1,20 +1,6 @@
-# =============== #
-# Unity generated #
-# =============== #
-Temp/
-Проект/Library/
-
-# ===================================== #
-# Visual Studio / MonoDevelop generated #
-# ===================================== #
-ExportedObj/
-obj/
-*.svd
-*.userprefs
-/*.csproj
-*.pidb
-*.suo
-/*.sln
-*.user
-*.unityproj
-*.booproj
+Проект/Library/FailedAssetImports.txt
+Проект/Library/cache/
+Проект/Library/previews/
+Проект/Library/ScriptAssemblies
+Проект/obj
+Проект/Temp
