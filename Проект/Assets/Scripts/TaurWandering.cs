@@ -16,13 +16,14 @@ public class TaurWandering : MonoBehaviour {
 		Debug.Log ("Finddest");
 		max = checkpoints.Length;
 		val = Random.Range (0, max);
-		return checkpoints[val];
+			return checkpoints[val];
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if(taur.GetComponent<FollowPlayer>().chasingplayer==false){
 		if (Vector3.Distance (taur.transform.position, Taurdest.transform.position) <= 2f) {
-			Taurdest.transform.position = taurnextdest ().transform.position;
+				Taurdest.transform.position = taurnextdest ().transform.position;}
 		}
 	
 	}

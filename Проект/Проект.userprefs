@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TaurWandering.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FollowPlayer.cs">
     <Files>
-      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="15" Column="25" />
-      <File FileName="Assets\Scripts\TaurWandering.cs" Line="24" Column="83" />
-      <File FileName="Assets\Scripts\BuoyInit.cs" Line="11" Column="18" />
+      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="35" Column="77" />
+      <File FileName="Assets\Scripts\TaurWandering.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
