@@ -57,7 +57,6 @@ public class TaurAI : MonoBehaviour {
 		if (DetectionSphere.gameObject == player) {
 			Vector3 direction = DetectionSphere.transform.position - transform.position;
 			float tempangle = Vector3.Angle(direction, transform.forward);
-			Debug.Log(tempangle);
 			if(tempangle<=angle*0.5f){
 				if (Vector3.Distance (transform.position, player.transform.position) <= 2f) {
 					taurstate = "attacking";}else {taurstate="chasing";}

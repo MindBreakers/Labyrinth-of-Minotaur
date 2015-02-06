@@ -1165,7 +1165,7 @@ GameObject:
   - 64: {fileID: 122217387}
   m_Layer: 0
   m_Name: Mesh1
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5715,6 +5715,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 936936425}
+  - 135: {fileID: 936936426}
   m_Layer: 8
   m_Name: Left Toe
   m_TagString: Untagged
@@ -5735,6 +5736,18 @@ Transform:
   - {fileID: 1063611323}
   m_Father: {fileID: 567124053}
   m_RootOrder: 1
+--- !u!135 &936936426
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936936424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: .0149999997
+  m_Center: {x: -.00999999978, y: 0, z: 0}
 --- !u!1 &964891184
 GameObject:
   m_ObjectHideFlags: 0
@@ -7064,7 +7077,7 @@ GameObject:
   - 4: {fileID: 1256676879}
   m_Layer: 0
   m_Name: Floor1
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8738,6 +8751,14 @@ Prefab:
     - target: {fileID: 185760, guid: 27c2f5178e0ce694d80edc69c0108e06, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967287
+      objectReference: {fileID: 0}
+    - target: {fileID: 185770, guid: 27c2f5178e0ce694d80edc69c0108e06, type: 2}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 185762, guid: 27c2f5178e0ce694d80edc69c0108e06, type: 2}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27c2f5178e0ce694d80edc69c0108e06, type: 2}
@@ -11241,6 +11262,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1938205887}
+  - 135: {fileID: 1938205888}
   m_Layer: 8
   m_Name: Right Toe
   m_TagString: Untagged
@@ -11261,6 +11283,18 @@ Transform:
   - {fileID: 1191276823}
   m_Father: {fileID: 1673416546}
   m_RootOrder: 1
+--- !u!135 &1938205888
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1938205886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: .0149999997
+  m_Center: {x: -.00999999978, y: 0, z: 0}
 --- !u!1 &1955473118
 GameObject:
   m_ObjectHideFlags: 0
@@ -11391,6 +11425,8 @@ GameObject:
   - 195: {fileID: 1971666238}
   - 135: {fileID: 1971666242}
   - 114: {fileID: 1971666241}
+  - 82: {fileID: 1971666243}
+  - 114: {fileID: 1971666245}
   m_Layer: 8
   m_Name: Troll
   m_TagString: Untagged
@@ -11511,6 +11547,83 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: .150000006, z: 0}
+--- !u!82 &1971666243
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971666235}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 15faccb8f5420432fa284037f4bf1faa, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 0
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1971666245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1971666235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d241571710c594846bfaafc0601d883e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftfootcollider: {fileID: 936936426}
+  rightfootcollider: {fileID: 1938205888}
+  footsounds:
+  - {fileID: 8300000, guid: 15faccb8f5420432fa284037f4bf1faa, type: 3}
+  - {fileID: 8300000, guid: 4a4a86cfb191b4dcb9489041229fb787, type: 3}
+  - {fileID: 8300000, guid: b3016411f94144a349c07c7d6c4f3fbe, type: 3}
+  - {fileID: 8300000, guid: 2926e2190214043fa813d593ede29c10, type: 3}
+  - {fileID: 8300000, guid: b30abfff4b00a4f8f9037473d8dbf895, type: 3}
 --- !u!1 &1975100166
 GameObject:
   m_ObjectHideFlags: 0
