@@ -4515,7 +4515,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 16.1905499
+      value: 16.1910667
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4523,7 +4523,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1.34480858
+      value: -1.34537077
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4531,7 +4531,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -.670998335
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalRotation.z
@@ -4539,7 +4539,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: .741458952
       objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
       propertyPath: m_RootOrder
@@ -6630,7 +6630,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1175306475}
-  - 114: {fileID: 1175306476}
   m_Layer: 0
   m_Name: NavBuoys
   m_TagString: Untagged
@@ -6653,23 +6652,6 @@ Transform:
   - {fileID: 1316180536}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!114 &1175306476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1175306474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bf79b901a38c974ba6e21a9d23751cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkpoints:
-  - {fileID: 1122605000}
-  - {fileID: 1616449225}
-  - {fileID: 1316180535}
-  taur: {fileID: 1971666235}
-  Taurdest: {fileID: 1963239245}
 --- !u!1 &1186533136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9006,8 +8988,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400100, guid: 40046bae76ac54bffb59f14f47d9ba1b, type: 2}
   m_PrefabInternal: {fileID: 804444553}
   m_GameObject: {fileID: 1610432701}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.1905499, y: 9.60259438, z: -1.34480858}
+  m_LocalRotation: {x: 0, y: -.670998335, z: 0, w: .741458952}
+  m_LocalPosition: {x: 16.1910667, y: 9.60259438, z: -1.34537077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 971445428}
@@ -10510,7 +10492,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.1199999
+      value: 11.2243128
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10518,7 +10500,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -.829999983
+      value: -.894157112
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalRotation.x
@@ -10526,7 +10508,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -.754865408
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalRotation.z
@@ -10534,7 +10516,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: .655879676
       objectReference: {fileID: 0}
     - target: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
       propertyPath: m_RootOrder
@@ -11407,8 +11389,8 @@ GameObject:
   - 54: {fileID: 1971666240}
   - 136: {fileID: 1971666239}
   - 195: {fileID: 1971666238}
-  - 114: {fileID: 1971666241}
   - 135: {fileID: 1971666242}
+  - 114: {fileID: 1971666241}
   m_Layer: 8
   m_Name: Troll
   m_TagString: Untagged
@@ -11422,8 +11404,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400080, guid: e58e375f5ed38074480b5df1226c7bc3, type: 3}
   m_PrefabInternal: {fileID: 1885018816}
   m_GameObject: {fileID: 1971666235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.1199999, y: 9.68000031, z: -.829999983}
+  m_LocalRotation: {x: 0, y: -.754865468, z: 0, w: .655879736}
+  m_LocalPosition: {x: 11.2243128, y: 9.68000031, z: -.894157112}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 2060894174}
@@ -11502,13 +11484,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1971666235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3597bd267f787444c990d8286a8665a3, type: 3}
+  m_Script: {fileID: 11500000, guid: f14c90cd826b777488d8f4af57ef9b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1610432701}
   Taurdest: {fileID: 1963239245}
-  chasingplayer: 0
   angle: 90
+  stalktime: 5
+  checkpoints:
+  - {fileID: 1122605000}
+  - {fileID: 1616449225}
+  - {fileID: 1316180535}
+  taurstate: wandering
+  wanderingspeed: 2
+  chasingspeed: 3
+  attackcd: 5
 --- !u!135 &1971666242
 SphereCollider:
   m_ObjectHideFlags: 0
